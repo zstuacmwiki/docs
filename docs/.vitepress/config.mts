@@ -2,13 +2,16 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
+  title: "ZSTU ACM",
   description: "A VitePress Site",
+  
   themeConfig: {
+    logo: '/logo2.jpg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '集训队', link: '/markdown-examples' },
+      { text: '荣誉殿堂', link: '/'}
     ],
 
     sidebar: [
@@ -22,7 +25,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/IceIns/docs' }
     ]
   },
 
@@ -30,6 +33,6 @@ export default defineConfig({
     math: true
   },
 
-  // base: '/docs/'
+  base: '/docs/'
   
 })

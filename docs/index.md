@@ -3,23 +3,29 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "ZSTU ACM"
+  text: "浙理工 ACM 集训队"
+  tagline: ACM gives you a unbelievable life!
+  image:
+    src: /icpc.png
+    alt: background
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: ACM 是什么
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 关于我们
       link: /api-examples
 
 features:
-  - title: Feature AAAA
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🏆
+    title: 目标：
+    details: 浙江理工大学程序设计竞赛集训队，为在 ICPC、CCPC、ZJCPC、CCCC、蓝桥杯、Astar 等算法竞赛中取得优异成绩。
+  - icon: 🎈
+    title: 
+    details: ICPC 是校一类竞赛，在保研加分、奖学金评定等方面举足轻重。集训队依托计算机学院，现有多位区域赛金银铜奖队员。队内管理规则制度完善，训练体系完备，为每一位队员创造良好的训练环境，为大家带来充实的大学生活。
+  - icon: 🐧
+    title: 联系方式：
+    details: "QQ: 1120571672。"
 ---
 
