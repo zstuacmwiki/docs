@@ -40,7 +40,7 @@ export default defineConfig({
             items: [
               { text: 'ACM 是什么', link: '/ACM/instruction' },
               { text: '比赛赛季时间安排', link: '/ACM/schedule' },
-              { text: '训练平台', link: '/ACM/training platform'}
+              { text: '学习资料', link: '/ACM/training platform'}
             ]
           }
         ],
