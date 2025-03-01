@@ -68,8 +68,5 @@ export default defineConfig({
 
   markdown: {
     math: true
-  },
-
-  base: '/docs/'
-  
+  },  
 })
