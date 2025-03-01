@@ -6,7 +6,7 @@ export default defineConfig({
   title: "ZSTU ACM",
   description: "A VitePress Site",
   head: [
-    ['link', { rel: 'icon', href: '/docs/favicon.ico'}]
+    ['link', { rel: 'icon', href: '/favicon.ico'}]
   ],
 
   themeConfig: {
