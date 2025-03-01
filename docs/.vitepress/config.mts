@@ -6,7 +6,7 @@ export default defineConfig({
   title: "ZSTU ACM",
   description: "A VitePress Site",
   head: [
-    ['link', { rel: 'icon', href: '/docs/favicon.ico'}]
+    ['link', { rel: 'icon', href: '/favicon.ico'}]
   ],
 
   themeConfig: {
@@ -27,7 +27,7 @@ export default defineConfig({
             text: '集训队',
             items: [
               { text: '集训队简介', link: '/group/instruction'},
-              { text: '集训队章程', link: '/group/constitution' },
+              { text: '集训队管理条例', link: '/group/constitution' },
               { text: '教练', link: '/group/coach'},
               { text: '队员信息', link: '/group/members' }
             ]
@@ -69,7 +69,5 @@ export default defineConfig({
   markdown: {
     math: true
   },
-
-  base: '/docs/'
   
 })
