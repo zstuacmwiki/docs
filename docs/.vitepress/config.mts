@@ -70,6 +70,6 @@ export default defineConfig({
     math: true
   },
 
-  //base: '/docs/'
+  base: '/docs/'
   
 })
