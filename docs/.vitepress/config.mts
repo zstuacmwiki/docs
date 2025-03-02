@@ -62,7 +62,7 @@ export default defineConfig({
     
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/IceIns/docs' }
+      { icon: 'github', link: 'https://github.com/zstuacmwiki/docs' }
     ]
   },
 
