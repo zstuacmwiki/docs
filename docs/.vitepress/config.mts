@@ -11,7 +11,7 @@ export default defineConfig({
 
   themeConfig: {
     outlineTitle: '目录',
-    outline: [1,6],
+    outline: [2,6],
     logo: '/logo2.jpg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -29,7 +29,8 @@ export default defineConfig({
               { text: '集训队简介', link: '/group/instruction'},
               { text: '集训队管理条例', link: '/group/constitution' },
               { text: '教练', link: '/group/coach'},
-              { text: '队员信息', link: '/group/members' }
+              { text: '队员信息', link: '/group/members' },
+              { text: '队员风采', link: '/group/demeanour'}
             ]
           }
         ],
