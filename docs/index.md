@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "ZSTU ACM"
   text: "浙理工 ACM 集训队"
-  tagline: ACM gives you a unbelievable life!
+  tagline: ACM gives you an unbelievable life!
   image:
     src: /icpc.png
     alt: background
