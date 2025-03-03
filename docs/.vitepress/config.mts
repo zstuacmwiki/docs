@@ -50,12 +50,12 @@ export default defineConfig({
           {
             text: '历史战绩',
             items:[
-              { text: 'ICPC', link: '/'},
-              { text: 'CCPC', link: '/'},
-              { text: 'ZJCPC', link: '/'},
-              { text: 'CCCC', link: '/'},
-              { text: '蓝桥杯', link: '/'},
-              { text: 'Astar', link: '/'} 
+              { text: 'ICPC', link: '/honor/ICPC'},
+              { text: 'CCPC', link: '/honor/CCPC'},
+              { text: 'ZJCPC', link: '/honor/ZJCPC'},
+              { text: 'CCCC', link: '/honor/CCCC'},
+              { text: '蓝桥杯', link: '/honor/蓝桥杯'},
+              { text: 'Astar', link: '/honor/Astar'} 
             ]
           }
         ]
