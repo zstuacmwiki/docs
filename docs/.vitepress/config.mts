@@ -30,7 +30,8 @@ export default defineConfig({
               { text: '集训队管理条例', link: '/group/constitution' },
               { text: '教练', link: '/group/coach'},
               { text: '队员信息', link: '/group/members' },
-              { text: '队员风采', link: '/group/demeanour'}
+              { text: '队员风采', link: '/group/demeanour'},
+              { text: '校级比赛', link: '/group/contest'}
             ]
           }
         ],
